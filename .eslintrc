@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-egg",
+  "plugins": [
+    "html"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": [2, "never"]
+  }
+}
