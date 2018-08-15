@@ -1,6 +1,5 @@
-
-
 module.exports = {
+  dev: process.env.NODE_ENV !== 'production',
   srcDir: 'client/',
   /*
   ** Headers of the page

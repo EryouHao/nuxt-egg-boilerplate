@@ -1,7 +1,10 @@
 <template>
   <v-app>
     <v-content>
-      <v-container>Hello Nuxt Egg Vuetify</v-container>
+      <v-container>
+        Hello Egg TypeScript Nuxt Vuetify By 
+        <a href="https://github.com/eryouhao" target="_blank">fehey</a>
+      </v-container>
     </v-content>
   </v-app>
 </template>
@@ -16,6 +19,7 @@ export default {
   async mounted() {
     const res = await this.$api.home.fetchList()
     console.log(res)
+    console.log('hello')
   },
 }
 </script>
@@ -29,4 +33,3 @@ export default {
   text-align center
   background #f5f5f5
 </style>
-

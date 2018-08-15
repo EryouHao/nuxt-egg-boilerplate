@@ -1,0 +1,44 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "strict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "charset": "utf8",
+    "allowJs": false,
+    "pretty": true,
+    "noEmitOnError": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/": ["client/"],
+      "~/assets/*": ["client/assets/*"],
+      "~/components/*": ["client/components/*"],
+      "~/middleware/*": ["client/middleware/*"],
+      "~/pages/*": ["client/pages/*"],
+      "~/plugins/*": ["client/plugins/*"],
+      "~/static/*": ["client/static/*"],
+      "~/store/*": ["client/store/*"]
+    }
+  },
+  "exclude": [
+    "app/public",
+    "app/views"
+  ]
+}
